@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  border: 1px solid;
+  display: inline-block;
+  padding: 50px;
+}
+.card h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.card button {
+  margin-right: 5px;
+}
+.cntr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.cntr .list {
+  margin: 10px auto;
+  color: green;
+}
+.cntr input {
+  padding: 7px 3px;
+}
+.cntr button {
+  /* width: 100%; */
+  padding: 2px 5px;
+}
+.textbox {
+  margin-top: 5px;
+  width: 100%;
+  background: gainsboro;
+  padding: 7px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.textbox span {
+  cursor: pointer;
+}
+.cornor {
+  display: flex;
+}
+.cornor .edit {
+  margin-right: 7px;
+  color: indigo;
+}
+.cornor .trash {
+  color: red;
+}
+button {
+  margin-top: 10px;
+}
+.plus {
+  margin-left: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container input {
+  padding: 4px 2px;
+}
+.container .addbtn {
+  padding: 4px;
+}
+.container .list {
+  padding: 6px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: gray;
+  color: aliceblue;
+  /* margin-bottom: 5px; */
+}
+.container .right-list {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+.container .right-list .edt,
+.dlt {
+  padding: 2px 4px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.rmv {
+  padding: 3px 6px;
+}
